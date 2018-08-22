@@ -27,10 +27,12 @@ html {
 
 .main-content{
 	margin-bottom: 310px;
+
 }
 
 .intro {
 	position: relative;
+	margin-bottom: 10px;
 
 }
 
@@ -49,11 +51,17 @@ html {
 	float: left;
 }
 .partner {
- overflow: hidden;
  height: 300px;
- list-style: none;
- display: inline;
+ white-space: nowrap;
  
+}
+.partner li {
+	display: inline-block;
+	list-style: none;
+	max-width: 175px;
+	border-radius: 50%;
+	object-fit: contain;
+
 }
 
 .footer {
