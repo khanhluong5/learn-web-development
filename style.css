@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-
 }
 
 .clearfix {
@@ -10,12 +9,11 @@
 
 html {
 	position: relative;
-
 }
+
 .container {
 	width: 1000px;
 	margin: auto;
-	
 }
 
 .header {
@@ -25,13 +23,13 @@ html {
 	margin-bottom: 10px;
 }
 
-.main-content{
+.main-content {
 	margin-bottom: 310px;
 }
 
 .intro {
 	position: relative;
-
+	margin-bottom: 10px;
 }
 
 .intro .sidebar {
@@ -43,17 +41,34 @@ html {
 }
 
 .intro .content {
-	width: 740px;
-	min-height: 800px;
+	width: 720px;
+	min-height: 780px;
 	background: #eef5db;
 	float: left;
+	padding: 10px;
 }
+
 .partner {
- overflow: hidden;
- height: 300px;
- list-style: none;
- display: inline;
- 
+	overflow: hidden;
+	height: 300px;
+}
+
+.partner ul {
+	list-style: none;
+}
+
+.partner li {
+	display: inline;
+	float: left;
+	width: 200px;
+	height: 300px;
+	align: center;
+}
+.partner li img {
+	width: 180px;
+	height: auto;
+	border-radius: 90px;
+	margin-top: 60px;
 }
 
 .footer {
@@ -63,5 +78,5 @@ html {
 	width: 100%;
 	min-height: 300px;
 	bottom: 0;
+	
 }
- 
