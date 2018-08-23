@@ -20,7 +20,6 @@ clear: both;
   min-width: 30%;
   display: block;
   float: left;
-  position: left;
 
   
 }
@@ -29,7 +28,6 @@ clear: both;
   min-width: 40%;
   min-height: 150px;
   float: left;
-  position: center;
 
 
 
@@ -38,6 +36,4 @@ clear: both;
 .container .dn {
   min-width: 30%;
   min-height: 150px;
-  position: right;
-  
 }

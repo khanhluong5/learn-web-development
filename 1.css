@@ -19,7 +19,6 @@ html {
 .header {
 	height: 100px;
 	padding: 20px;
-
 }
 
 .brand {
@@ -61,25 +60,108 @@ h1 {
 	color: white;
 	background: #a751d6;
 }
+
 .menu {
 	height: 70px;
 	background: linear-gradient(#f8f594, #d5d533);
 }
-.menu ul {
-	list-style: none;
-	padding: 7px 0;
+ul {
+	list-style-type: none;
 }
+
+.menu ul {
+	padding: 17px 40px;
+}
+
 .menu ul li {
 	display: inline;
 	padding: 0 20px;
 	height: 20px;
 	border-right: 1px solid #5d12e7;
+	line-height: 30px;
 }
+
+.menu ul li:last-child {
+	border-right: none;
+}
+
 .menu ul li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 17px;
 	color: #5d12e7;
 	line-height: 35px;
+}
 
+.meunu ul li a:hover .meunu ul li a.active {
+	font-size: 20px;
+	font-weight: bold;
+	color: #c34fdb;
+}
+
+.intro {
+	background: linear-gradient(#e5f2bb, #b7e952);
+	padding: 30px;
+	margin: 10px 0;
+}
+.intro h3 {
+	font-size: 45px;
+	color: #316901;
+	font-weight: normal;
+}
+.intro p {
+	font-size: 25px;
+	color: #628f19;
+	text-align: justify;
+}
+
+.sidebar{
+	height: 500px;
+	width: 450px;
+	border: 1px solid #BAF46F;
+	border-radius: 20px;
+	padding: 10px 30px;
+}
+
+.sidebar h3{
+	color: #B314DB;
+	font-size: 30px;
+}
+
+.sidebar ul{
+	padding-top: 8px;   
+}
+#leftsidebar ul li{
+	padding: 4px 0 4px 10px;
+}
+
+#rightsidebar ul li{
+	padding: 17px 0 17px 70px;
+}
+.sidebar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #5d12e7;
+
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+	text-decoration: none;
+	color: #B314DB;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+
+#leftsidebar{
+	float: left;   
+	background: url(./Webp.net-resizeimage (1).png)
+}
+#leftsidebar ul li {
+	padding-bottom: 6px 0 6px 10px;
+
+}
+
+#rightsidebar{
+	float: right;
 }
